@@ -8,6 +8,7 @@ public class Main {
         String playAgain = "Y";
 
         do {
+
             int die1 = rand.nextInt(6) + 1;
             int die2 = rand.nextInt(6) + 1;
             int sum = die1 + die2;
